@@ -91,5 +91,4 @@ To prevent clutter, this bot operates mostly in the background. It only has one 
 2. Create a new **Web Service** on Render.
 3. Set **Start Command** to `node index.js`.
 4. Add `BOT_TOKEN` and `MONGODB_URI` under the **Environment** tab.
-5. Deploy. The included Express server will automatically bind to Render's port requirement.# idle-member-checker-bot
-# idle-member-checker-bot
+5. Deploy. The included Express server will automatically bind to Render's port requirement.
