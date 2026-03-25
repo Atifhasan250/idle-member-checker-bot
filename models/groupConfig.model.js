@@ -7,7 +7,9 @@ const groupConfigSchema = new mongoose.Schema({
         type: String,
         default: "🔴 গত ২৪ ঘন্টায় যারা সাবমিট করেননি:"
     },
-    isActive: { type: Boolean, default: true } // NEW: Tracks start/stop state
+    isActive: { type: Boolean, default: true },
+    scheduleTime: { type: String, default: "22:00" },
+    intervalMs: { type: Number, default: 86400000 }
 });
 
 module.exports = mongoose.model('GroupConfig', groupConfigSchema);
